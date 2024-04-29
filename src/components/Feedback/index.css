@@ -1,0 +1,43 @@
+/* Write your CSS code here. */
+.emojis {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+}
+
+button {
+  background-color: transparent;
+  margin: 35px;
+  border: none;
+}
+
+.request-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.image {
+  height: 100px;
+}
+
+li {
+  list-style: none;
+}
+
+button:hover{
+  border: 2px solid black;
+}
